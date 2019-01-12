@@ -34,17 +34,15 @@ Smart Attendance is a lite weight automatic attendance program powered by the la
 
 Smart Attendance uses a number of open source projects to work properly:
 
-* #1 That you won't understand so I wouldn't make an attempt
-* #2 The stuff that I don't understand so everything else is out of question
-* [AngularJS] - HTML enhanced for web apps!
-* [Ace Editor] - awesome web-based text editor
-* [markdown-it] - Markdown parser done right. Fast and easy to extend.
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Gulp] - the streaming build system
-* [Breakdance](http://breakdance.io) - HTML to Markdown converter
-* [jQuery] - duh
+* Face-Detection with python using openCV3 (Computer Vision) : OpenCV has Machine Learning Algorithms to detect faces within a picture.
+
+* Segmentation : The detected faces are segmeted from the original picture and stored as seperate files.
+
+* Deblurring : If the segmented images are not_clear/blurred, then we use a RNN (Recurrent Neural Network) to remove the excess blur from the pictures, which will eventually help in improving the performance of our network.
+
+* Siamese : One-shot learning :  Currently most deep learning models need generally thousands of labeled samples per class. Data acquisition for most tasks is very expensive. The possibility to have models that could learn from one or a few samples is a lot more interesting than having the need of acquiring and labeling thousands of samples.
+
+(Since our implementation of Siamese network uses FaceNet for image_encoding (Transfer Learning), it requires us to rescale our images to dimesions of 96*96 ) 
 
 
 ### Installation
