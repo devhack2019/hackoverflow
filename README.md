@@ -98,7 +98,7 @@ Open your favorite Terminal and explore all you can look around till we get back
 
 ### YouTube Video Link
 
-[https://youtu.be/aLU2MQTyQoU]
+[https://youtu.be/unUpINtxR_s]
 
 
 ### Todos
