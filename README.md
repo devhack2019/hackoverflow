@@ -96,6 +96,10 @@ Talk to us and we can work on it together
 Open your favorite Terminal and explore all you can look around till we get back to you :stuck_out_tongue_winking_eye:
 
 
+### YouTube Video Link
+
+[https://youtu.be/aLU2MQTyQoU]
+
 
 ### Todos
 
